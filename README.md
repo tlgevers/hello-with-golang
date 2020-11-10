@@ -2,6 +2,6 @@
 
 ## To get started
 
-`docker run -d --name hello-go -p 8080:8080 tlgevers/hello-go`
+`docker run -d --name hello-golang -p 8080:8080 tlgevers/hello-golang`
 
 #### visit _http://localhost:8080/_
