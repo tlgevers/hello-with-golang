@@ -1,0 +1,16 @@
+{
+  "service": {
+    "name": "hello-golang",
+    "tags": [
+      "hello"
+    ],
+    "port": 8080,
+    "check": {
+      "args": [
+        "curl",
+        "localhost"
+      ],
+      "interval": "10s"
+    }
+  }
+}
